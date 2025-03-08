@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles del Personaje</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <!-- Iconos -->
+  </head>
+  <body>
+    <div class="container">
+      <label for="character">Choose a character:</label>
+      <select name="character" id="character">
+        <option value="none">none</option>
+      </select>
+
+      <div class="img-container">
+        <img id="char-img" src="./img/img-wirefame.png" alt="Gendry" />
+      </div>
+
+      <div class="details">
+        <div>
+          <i class="fas fa-user"></i>
+          <p>
+            <strong>Full name: </strong
+            ><span id="fullname">No character selected</span>
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-users"></i>
+          <p>
+            <strong>Family: </strong
+            ><span id="family">No character selected</span>
+          </p>
+        </div>
+        <div>
+          <i class="fas fa-crown"></i>
+          <p>
+            <strong>Royal Title: </strong
+            ><span id="royal">No character selected</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
